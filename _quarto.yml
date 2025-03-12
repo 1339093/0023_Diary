@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Diary"
+  author: "Norah Jones"
+  date: "3/12/2025"
+  chapters:
+    - index.qmd
+    - Introduction.qmd
+    - "Xaringan and Quarto.qmd"
+    - Corrections.qmd
+    - Policy.qmd
+    - "Google Earth Engine I.qmd"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

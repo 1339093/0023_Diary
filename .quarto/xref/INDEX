@@ -1,0 +1,29 @@
+{
+  "index.qmd": {
+    "index.html": "45285dc4"
+  },
+  "intro.qmd": {
+    "intro.html": "ae3a2b0f"
+  },
+  "summary.qmd": {
+    "summary.html": "1109dca1"
+  },
+  "references.qmd": {
+    "references.html": "e1f66373"
+  },
+  "Introduction.qmd": {
+    "Introduction.html": "befc2b9e"
+  },
+  "Xaringan and Quarto.qmd": {
+    "Xaringan and Quarto.html": "9108e9d2"
+  },
+  "Corrections.qmd": {
+    "Corrections.html": "fe313e32"
+  },
+  "Policy.qmd": {
+    "Policy.html": "30cc310c"
+  },
+  "Google Earth Engine I.qmd": {
+    "Google Earth Engine I.html": "71a2fec4"
+  }
+}
