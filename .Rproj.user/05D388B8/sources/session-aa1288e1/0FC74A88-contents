@@ -40,10 +40,6 @@ In Slide, I recorded what I learned about Xaringan this week, as well as some of
 
 **Import pictures and table \~**
 
-::: {style="float: left; width: 50%; margin-right: 1em;"}
-![](week2/coding.jpeg){width="100%"}
-:::
-
 ::: {style="overflow: hidden;"}
 This is the description of the image, aligned to the right of the picture.
 :::
