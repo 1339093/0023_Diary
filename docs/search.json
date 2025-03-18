@@ -74,7 +74,7 @@
     "href": "Xaringan and Quarto.html#application",
     "title": "3  Week 2 Protfolio",
     "section": "3.3 Application",
-    "text": "3.3 Application\n\n3.3.1 Use of Xaringan\n\n\nIn Slide, I recorded what I learned about Xaringan this week, as well as some of my own development. However, the direct display of Slide does not seem to show the results of images and code blocks directly.\n\n\n3.3.2 Use of Quarto\n\nImport pictures and table ~\n\nThis is the description of the image, aligned to the right of the picture.\n\n\nView the head of iris data (in bold)\n\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n4.9\n3.0\n1.4\n0.2\nsetosa\n\n\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n4.6\n3.1\n1.5\n0.2\nsetosa\n\n\n5.0\n3.6\n1.4\n0.2\nsetosa\n\n\n5.4\n3.9\n1.7\n0.4\nsetosa",
+    "text": "3.3 Application\n\n3.3.1 Use of Xaringan\nUse of Xaringan\nIn Slide, I recorded what I learned about Xaringan this week, as well as some of my own development. However, the direct display of Slide does not seem to show the results of images and code blocks directly.\n\n\n3.3.2 Use of Quarto\n\nImport pictures and table ~\n\nThis is the description of the image, aligned to the right of the picture.\n\n\nView the head of iris data (in bold)\n\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n4.9\n3.0\n1.4\n0.2\nsetosa\n\n\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n4.6\n3.1\n1.5\n0.2\nsetosa\n\n\n5.0\n3.6\n1.4\n0.2\nsetosa\n\n\n5.4\n3.9\n1.7\n0.4\nsetosa",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Protfolio</span>"
     ]
