@@ -1,8 +1,0 @@
-[1,"==> quarto preview --render html --no-watch-inputs --no-browse\n\n"]
-[1,"\u001B[1m\u001B[34mRendering:\u001B[39m\u001B[22m\n"]
-[1,"\u001B[1m\u001B[34m\r[1/6] index.qmd\u001B[39m\u001B[22m\n"]
-[1,"\u001B[1m\u001B[34m\r[2/6] Introduction.qmd\u001B[39m\u001B[22m\n"]
-[1,"\u001B[1m\u001B[34m\r[3/6] Xaringan and Quarto.qmd\u001B[39m\u001B[22m\n"]
-[1,"\u001B[31m\n\nprocessing file: Xaringan-and-Quarto.rmarkdown\n\u001B[39m\r  |                                                          \r  |                                                    |   0%\r  |                                                          \r  |.......                                             |  14%                  \r  |                                                          \r  |...............                                     |  29% (unnamed-chunk-1)\u001B[31m\n\nQuitting from lines 32-35 (Xaringan-and-Quarto.rmarkdown) \n\u001B[39m"]
-[1,"\r                                                                                                            \n\u001B[31m\n\nQuitting from lines 32-35 (Xaringan-and-Quarto.rmarkdown) \nError in contrib.url(repos, \"source\") : \n  trying to use CRAN without setting a mirror\nCalls: .main ... withRestartList -> withOneRestart -> docall -> do.call -> fun\n\u001B[39m"]
-[1,"\u001B[31mExecution halted\n\u001B[39m"]
