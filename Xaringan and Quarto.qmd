@@ -28,10 +28,16 @@ Quarto's support for multiple languages feels like it would be useful in interdi
 
 ### Use of Xaringan
 
+```{r}
+install.packages("xaringanExtra")
+library(xaringanExtra)
+
+```
+
 ```{r, echo=FALSE,warning=FALSE, message=FALSE}
 
 xaringanExtra::embed_xaringan(
-  url = "",
+  url = " https://1339093.github.io/0023_Diary/week2.html",
   ratio = "16:9"
 )
 

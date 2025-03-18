@@ -3,7 +3,7 @@
     "path": "~/Desktop/Diary/Xaringan and Quarto.qmd",
     "project_path": "Xaringan and Quarto.qmd",
     "type": "quarto_markdown",
-    "hash": "1664603892",
+    "hash": "1076107903",
     "contents": "",
     "dirty": false,
     "created": 1741810513353.0,
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "1795:690",
+        "rmdVisualModeLocation": "1896:1029",
         "cursorPosition": "0,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1742143538,
+    "lastKnownWriteTime": 1742289476,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1742143538142,
+    "last_content_update": 1742289476622,
     "read_only": false,
     "read_only_alternatives": []
 }
