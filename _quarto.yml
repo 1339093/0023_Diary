@@ -13,6 +13,9 @@ book:
     - Corrections.qmd
     - Policy.qmd
     - "Google Earth Engine I.qmd"
+    - "Classification I.qmd"
+    - "Classification II.qmd"
+    -  SAR.qmd
 
 bibliography: references.bib
 

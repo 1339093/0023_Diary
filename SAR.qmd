@@ -1,0 +1,40 @@
+---
+title: "Temperature and SAR"
+---
+
+## Summary
+
+This week's topic revolves around urban temperatures and their analysis by remote sensing, focusing on the use of **Landsat** and **MODIS** data to measure the urban thermal environment and to combine statistical methods and machine learning models for analysis. In addition to basic temperature extraction and time-series analyses, the course introduces the calculation of the **Heat Index** and discusses the impact of historical Redlining policies on urban temperatures.
+
+In terms of data processing, this week attempted to use Landsat 8 and MODIS (Aqua & Terra) data to extract the Land Surface Temperature (LST) of Beijing, combining the high resolution of Landsat with the high temporal resolution of MODIS to obtain a more comprehensive temperature monitoring result. At the same time, the data is pre-processed by Google Earth Engine (GEE) to ensure accuracy and usability.
+
+The most interesting part of the week for me was **Time series analysis and spatial statistics**: - **Time series analysis of MODIS**: to observe the trend of summer temperature. - **Calculation of average temperatures** for different administrative regions based on Landsat and exporting the data for further analyses (e.g. calculating temperature percentiles in R). - **Heat index calculation**: Use Landsat data to construct a temperature scale to classify the city's ‘heat risk class’ by percentile.
+
+## Application
+
+This week's knowledge can be widely applied to **Urban Heat Island (UHI) studies, environmental planning, and climate adaptation strategies**.
+
+-   *Urban Heat Island Effect Monitoring*
+
+    This week, we learnt how to use MODIS long time series data to analyse the trend of urban heat island effect, and combined with Landsat fine-grained data to study microclimate impacts. By comparing data from different years, it is possible to identify areas of significant temperature increase and further explore the relationship with land use change, such as which neighbourhoods are more susceptible to heat due to a lack of greenery.
+
+-   *Urban planning and public health*
+
+    High temperatures not only affect comfort, but are also linked to socio-economic factors and the health of the population. We will examine the long-term impact of ‘Redlining’ policies in the context of heat exposure in poor neighbourhoods, and use hospital emergency data to assess the public health risks of heat, in order to develop more appropriate cooling strategies for cities.
+
+-   *Data Processing and Machine Learning*
+
+    Optimisation This week's heat index calculation is similar to a classification problem and can be combined with K-means clustering, decision trees (CART) or deep learning (CNN) to improve the accuracy of the analysis. In addition, temperature trend analyses via Mann-Kendall trend tests can provide data to support future urban planning and policy making.
+
+**💡:**\
+Landsat has high spatial resolution but low temporal resolution, suitable for local fine analysis; MODIS has high temporal resolution but low spatial resolution, suitable for large-scale analysis.\
+The calculation of the heat index can be adjusted, e.g. different regions may need different temperature thresholds to avoid ‘one size fits all’ grading.\
+In the future, **Night temperature data (MODIS LST Night)** can be added to explore the influence of day-night temperature difference on the thermal environment.
+
+## Reflection
+
+This week has made me more aware of the importance of remotely sensed data in urban environmental monitoring, especially in addressing climate change and urban heat island issues, which can provide more comprehensive and detailed analyses than traditional weather stations. In addition, the high temporal resolution of MODIS makes me more interested in time series analysis, and in the future I would like to try to apply machine learning to temperature prediction, such as **LSTM or ARIMA** to predict the future high temperature trend of the city.
+
+However, the whole data processing process is still quite complicated, especially when implementing temperature calculation, heat index grading and other operations in **Google Earth Engine (GEE)**, the code logic needs to be adjusted repeatedly. If we want to do a larger-scale analysis of the urban thermal environment in the future, we may need to combine Python with automated batch processing to improve the computational efficiency.
+
+This week's study has given me a deeper understanding of **Geospatial Data Processing and Time Series Analysis**, and a clearer idea of the direction in which remote sensing technology may be applied in the future!

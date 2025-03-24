@@ -1,0 +1,31 @@
+---
+title: "Classification I"
+---
+
+## Summary 
+
+This week's study focused on remote sensing image classification, covering both *Supervised Classification* and *Unsupervised Classification*. We also learnt how to load and process remote sensing data in GEE, especially how to use Sentinel-2 data for cloud masking and classification.
+
+Classification algorithms are not unfamiliar to me, and as an undergraduate big data major with some grounding in K-means, random forests, and SVMs, it felt like an old friend meeting🧑‍🤝‍🧑. However, it was the first time to use these methods in the context of remote sensing image classification. I also had some new experiences. For remote sensing image data preprocessing is far more complex than expected, especially for cloud masks. The difference between filtering based on cloud coverage percentage and pixel-by-pixel filtering based on QA60 is obvious. We also found a ‘pitfall🕳️’ that the model performance of the polygon based training and testing sets was basically very poor, and the accuracy was significantly improved after switching to pixel level sampling.
+
+## Application 
+
+Remote sensing image classification has many practical applications, such as environmental monitoring, urban sprawl analysis, and air pollution research. Taking air pollution studies as an example, we can use LULC data (land use/land cover) to analyse the effects of different surface types on major air pollutants (MAP) and surface temperature (LST).
+
+Previous ***literature*** has shown that air quality is usually better and temperatures are relatively lower in areas with more urban green space and forest cover. If we combine the data from Sentinel-3 and Sentinel-5P, we might be able to do a regression analysis to see the effect of LULC on pollutants such as PM2.5, SO2 and NO2.
+
+Also, forest monitoring is an interesting application, especially for illegal logging detection. I have used Random Forest for classification before, but I didn't realise that it could be useful in remote sensing image processing. Hansen et al. (2013) used Landsat data to analyse the change of forest cover, and combined with the Random Forest classifier, the accuracy was significantly improved. This got me thinking that if similar methods were used in different regions, they could be used to predict future forest trends.
+
+**Think out loud💡:**
+
+Urban extension studies can also be done with this idea, such as comparing satellite images from multiple points in time to see how urbanisation is changing. Supervised classification methods (e.g. SVM, Random Forest) can be used to improve classification accuracy and also reduce manual misclassification.
+
+## Reflection 
+
+This week's study has given me a new understanding of the models and remote sensing classification that I have learnt before, especially the importance of data **preprocessing.** In the training process of these models, K-means and SVM, data quality determines everything, for example, if the cloud mask is not handled properly, the classification results will be messy. When I did machine learning projects before, most of them were dealing with numbers. But this practice made me more deeply appreciate that if the data itself is problematic, the model can't be saved no matter how powerful it is.
+
+Another thing that made me think is that although complex machine learning methods (SVM, Random Forest) can improve classification accuracy, in some scenarios, simple threshold classification is rather more intuitive and effective. For example, if the image data itself is already clear, a simple pixel value thresholding method may be more reliable and easier to interpret than machine learning classification.
+
+**In the future：**
+
+I would like to further investigate how to optimise the hyperparameters of the classification model to see how different combinations of parameters affect the classification effect. In addition, I am interested in multi-source data fusion (e.g. optical, SAR, LiDAR), and perhaps try to combine these different types of data to improve the accuracy and stability of classification.

@@ -1,5 +1,5 @@
 ---
-title: "Week 2 Protfolio"
+title: "Protfolio"
 ---
 
 ## Summary
@@ -28,7 +28,7 @@ Quarto's support for multiple languages feels like it would be useful in interdi
 
 ### Use of Xaringan
 
-```{}
+```         
 ```
 
 ```{r, echo=FALSE,warning=FALSE, message=FALSE}

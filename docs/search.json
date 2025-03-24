@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Diary",
     "section": "",
-    "text": "Updated: 2025-03-12\n\nThis is a study note about CASA0023 Remotely Sensing Cities and Environments\nIn this note, I will record my weekly study notes and contents weekly.\nI believe this book can clearly show my learning results. It may not be perfect, but it also represents my efforts.\nMy goal is to present my own notes while being as interesting as possible and, of course, easy to understand. This is not only for better review, but also for people who have no contact with the field at all to understand and become interested.",
+    "text": "This is a study note about CASA0023 Remotely Sensing Cities and Environments\nIn this note, I will record my weekly study notes and contents weekly.\nMy undergraduate degree is in Data Science and Big Data Technology. Have some basic knowledge of python, R language and some machine learning applications. But for remote sensing, I am a complete newbie.\nThe reason why I chose this course, besides the interest aspect. The main reason is because I think remote sensing data is very important for either urban space or other spaces, and a lot of modelling requires remote sensing data. Therefore, understanding-learning-mastering remote sensing data is very important for the future.\nI believe this book can clearly show my learning results. It may not be perfect, but it also represents my efforts.\nMy goal is to present my own notes while being as interesting as possible and, of course, easy to understand. This is not only for better review, but also for people who have no contact with the field at all to understand and become interested.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
     ]
@@ -12,71 +12,71 @@
   {
     "objectID": "Introduction.html",
     "href": "Introduction.html",
-    "title": "2  Week 1 Start",
+    "title": "2  Start",
     "section": "",
     "text": "2.1 Summary\nThis week has taken me from novice to beginner in remote sensing.\nI have learnt：\n💡：\nThe diversity and complexity of remotely sensed data, while offering potential, can also present challenges.\n(Data fusion may be possible through spatial interpolation, machine learning, etc.)\n(Initial correction using physical models Second Simulation of the Satellite Signal in the Solar Spectrum, MODTRAN, Ross-Thick-LiSparse model, etc., and then further correction of residual errors or prediction of surface through models such as Random Forest, CNN, etc.) parameters)",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Start</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Start</span>"
     ]
   },
   {
     "objectID": "Introduction.html#summary",
     "href": "Introduction.html#summary",
-    "title": "2  Week 1 Start",
+    "title": "2  Start",
     "section": "",
     "text": "The basic concepts of remote sensing, the types of sensors (active and passive), and the process by which electromagnetic waves interact with the earth’s surface and the atmosphere.\nRemote sensing is not only satellite images, but also includes data acquired by drones, aircraft and even handheld devices.\nthe four resolutions of remotely sensed data (spatial, spectral, temporal and radiometric) determine the applicability of the data.\n\n\n\n\nHow can remote sensing data of different resolutions be integrated?\n\n\n\nThe effects of electromagnetic wave interactions with the atmosphere and surface in practical applications may require corrections to improve the accuracy of the data.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Start</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Start</span>"
     ]
   },
   {
     "objectID": "Introduction.html#application",
     "href": "Introduction.html#application",
-    "title": "2  Week 1 Start",
+    "title": "2  Start",
     "section": "2.2 Application",
     "text": "2.2 Application\nAreas of application:\nEnvironmental monitoring, disaster management and urban planning\nActive sensors (SAR…) Can penetrate clouds, suitable for monitoring in cloudy areas.\nPassive sensors (optical sensors…) More suitable for high resolution imaging in clear sky conditions.\nSo by combining these two sensors, all-weather and all-terrain surface monitoring can be achieved.\nIn the literature：\nStudies use SAR data for flood monitoring and forest cover change analysis. This is because the penetration capability of SAR gives it a unique advantage in monitoring deforestation in tropical rainforest areas. However, the disadvantage is that the interpretation of SAR data is more complex and needs to be validated in conjunction with ground observations and other remote sensing data.\n💡:\nIn addition to traditional environmental monitoring, remote sensing can be used for social issues.\n(Assessing the level of economic development or population distribution by analysing night-time lighting data.)\nIt may be possible to use remote sensing data to assess meteorological disasters (floods…)\n(Assessing the recovery of affected areas by analysing changes in spectral features before and after floods.)\nAlso combined with other data sources (e.g. social media or sensor networks) to provide a more comprehensive environmental monitoring programme.\n(Combining disaster reports in social media and remote sensing data to assess disaster impacts in real time.)",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Start</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Start</span>"
     ]
   },
   {
     "objectID": "Introduction.html#reflection",
     "href": "Introduction.html#reflection",
-    "title": "2  Week 1 Start",
+    "title": "2  Start",
     "section": "2.3 Reflection",
     "text": "2.3 Reflection\nThe biggest feeling I got from this week’s study is that remote sensing technology is really complex and diverse at the same time, and I feel like I have opened the door to a new world. Although I was a bit confused at first, the more I learnt, the more interesting it became. Especially the SAR data, its penetrating ability simply caught my eyes! In a place like London, where it is always cloudy, SAR is a lifesaver, as it can penetrate the clouds and see what is happening on the ground surface, which will definitely be useful in disaster monitoring and climate change research. Although I am still a bronze player, I think I will be able to reach the gold level one day as long as I keep upgrading my skills!\nWhen it comes to my future research direction, I studied computer science in my undergraduate degree, so I am particularly interested in seeing how machine learning can be applied to remote sensing data analysis. For example, deep learning models can be used to automatically identify the type of ground cover or predict the trend of environmental change. Nowadays, the volume of remote sensing data is so large that manual analysis alone is definitely not enough, and if AI can be used to help, the efficiency will definitely be greatly improved. Moreover, machine learning can also discover some patterns from the data that we can’t see with the naked eye, which feels especially cool!\nAlso, like I mentioned above, can remote sensing technology be used in combination with other fields in the future? For example, combining remote sensing data with social media data to monitor disasters in real time. Or, integrating drone data with satellite data for both a detailed and wide view. These ideas may be premature now, but I think they are definitely possible in the future!\nAll in all, this week’s study has given me a deeper understanding of remote sensing technology and given me more ideas for future research directions. Although there is still a long way to go, I am ready to fight and upgrade!",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Start</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Start</span>"
     ]
   },
   {
     "objectID": "Xaringan and Quarto.html",
     "href": "Xaringan and Quarto.html",
-    "title": "3  Week 2 Protfolio",
+    "title": "3  Protfolio",
     "section": "",
     "text": "3.1 Summary\nXaringan is a new way of doing Slides, much simpler and more straightforward, implemented in R Markdown. Xaringan overrides all the functionality of regular Slides and provides some additional functionality. For example: directly implant code, forms, etc\nI’ll show you my use of Xaringan in the next section(3.2)\nQuarto itself supports building slideshows similar to Xaringan. Below here I will show the Slide with the image and code that is not clearly shown above.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Protfolio</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protfolio</span>"
     ]
   },
   {
     "objectID": "Xaringan and Quarto.html#reflection",
     "href": "Xaringan and Quarto.html#reflection",
-    "title": "3  Week 2 Protfolio",
+    "title": "3  Protfolio",
     "section": "3.2 Reflection",
     "text": "3.2 Reflection\nThe things we learnt this week are very effective in academic research and technical presentations; Xaringan can be used to make clear and concise academic presentations and Quarto is good for writing technical documentation or online books. With GitHub Pages, these resources can be easily shared with others.\nIn the literature, many studies have used Xaringan and Quarto to present data analysis results or technical methods. For example, some studies have used Quarto to write data analysis reports and then publish them as online books that readers can browse interactively.\nHowever, there are some limitations to these tools, such as lack of support for complex formats and the need for some programming skills to use them well.\n💡:\nQuarto’s support for multiple languages feels like it would be useful in interdisciplinary research, but in practice, how do you make sure that blocks of code in different languages fit together seamlessly and display correctly? For example, combining data analysis in R with machine learning models in Python.\n（Possibly via the Jupyter Kernel, or some package that supports interconnections (reticulate)?）",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Protfolio</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protfolio</span>"
     ]
   },
   {
     "objectID": "Xaringan and Quarto.html#application",
     "href": "Xaringan and Quarto.html#application",
-    "title": "3  Week 2 Protfolio",
+    "title": "3  Protfolio",
     "section": "3.3 Application",
     "text": "3.3 Application\n\n3.3.1 Use of Xaringan\n\n\n\n\n\n\n\n\n\nIn Slide, I recorded what I learned about Xaringan this week, as well as some of my own development. However, the direct display of Slide does not seem to show the results of images and code blocks directly.\n\n\n3.3.2 Use of Quarto\n\nImport pictures and table ~\n\nThis is the description of the image, aligned to the right of the picture.\n\n\nView the head of iris data (in bold)\n\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n4.9\n3.0\n1.4\n0.2\nsetosa\n\n\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n4.6\n3.1\n1.5\n0.2\nsetosa\n\n\n5.0\n3.6\n1.4\n0.2\nsetosa\n\n\n5.4\n3.9\n1.7\n0.4\nsetosa",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Protfolio</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protfolio</span>"
     ]
   },
   {
@@ -122,31 +122,31 @@
   {
     "objectID": "Policy.html",
     "href": "Policy.html",
-    "title": "5  Week 4 Policy",
+    "title": "5  Policy",
     "section": "",
     "text": "5.1 Summary\nThis week’s assignment was based around a city case study, combining remote sensing data and policy objectives to analyse the relationship between them. I chose Singapore because it is a highly urbanised island nation that faces a number of climate and environmental challenges, such as rising sea levels, urban heat island effect, and land resource constraints. To address these issues, the Singapore government has developed the Singapore Master Plan (SMP), one of the key objectives of which is to promote sustainable urban development.\nIn this process, remote sensing data can play a big role, such as monitoring urban sprawl, evaluating green space coverage, and analysing changes in the coastline. Although I seldom pay attention to these ‘macro’ issues in my daily life, this assignment made me realise that satellite data are actually closely related to our urban life and can even influence the government’s decisions.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 Policy</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Policy</span>"
     ]
   },
   {
     "objectID": "Policy.html#application",
     "href": "Policy.html#application",
-    "title": "5  Week 4 Policy",
+    "title": "5  Policy",
     "section": "5.2 Application",
     "text": "5.2 Application\nHow exactly can remote sensing data help Singapore’s sustainable development goals?\nGoogle Earth Engine provides free Landsat and Sentinel data that researchers can use to analyse urban sprawl.\nAfter looking up the information, I think it can be used in the following ways:\n1. Monitoring urban sprawl\nSingapore’s land is very limited, and urbanisation and development can affect natural ecosystems such as forests, wetlands and even coastlines. I found that these changes can be analysed using Landsat multi-temporal imagery to see just how much urbanisation is affecting the environment. For example, the government can use this data to decide which areas need ecological protection and which can be used for development.\n2. Assessing urban greenery and the heat island effect\nWalking on a concrete road in summer, you can really feel the temperature much higher than in a park, which is the Urban Heat Island Effect (UHI). Through the NDVI (Normalised Vegetation Index), we can see the green coverage of Singapore and identify areas with less vegetation and higher temperatures. In this way, the government can target more green spaces, such as planting more trees and promoting rooftop greening, to lower the temperature.\n3. Monitoring Sea Level Rise\nAs an island nation, Singapore’s coastline will be affected by climate change. Changes in the coastline can be analysed using Sentinel-1 SAR data to see which areas may be threatened by sea level rise. This will enable the government to plan ahead, such as reinforcing seawalls and protecting mangroves, which are natural protective barriers.\nData Reference:\nLandsat: Monitoring urban sprawl and land use change.\nSentinel-2: Analysing vegetation cover and assessing urban green spaces.\nSentinel-1SAR: Monitoring Sea Level Rise and Assessing Coastal Risks",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 Policy</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Policy</span>"
     ]
   },
   {
     "objectID": "Policy.html#reflection",
     "href": "Policy.html#reflection",
-    "title": "5  Week 4 Policy",
+    "title": "5  Policy",
     "section": "5.3 Reflection",
     "text": "5.3 Reflection\n1. Remote sensing data is useful but has its limitations.\nI thought that remote sensing data is ‘real time’, but in fact it is affected by weather, data update frequency and other factors, sometimes it may not reflect the latest situation immediately. For example, optical remote sensing (Landsat, Sentinel-2) is difficult to use in cloudy weather, which made me realise why Synthetic Aperture Radar (SAR) is so important because it is not affected by weather. There is also the fact that data processing is not simple, and after the government acquires the data, it needs professionals to analyse and interpret it before it can really be used for decision making.\n2. The Power of Remote Sensing Data\nThis assignment really made me realise that data can shape a city. Government decisions are not made out of thin air, but are based on a variety of data, such as remote sensing imagery, ground measurements, and even social data. It’s like Singapore’s master plan is not decided arbitrarily, but through data analysis and trend prediction to find the most reasonable development direction. For example, they use remote sensing to monitor the green coverage rate and find areas where parks need to be added; they use coastline data to predict sea level rise and decide where seawalls need to be built. This makes me think that urban planning is actually a kind of ‘data-driven art’.\n3. Human-centred\nThis assignment made me think that although data and technology are important, they ultimately serve people. The government can use remote sensing data to optimise urban planning, but if people are not willing to change their habits, it may be difficult to implement policies.\nBut if ordinary people are allowed to have access to this data, will it lead to better decision-making?\nIf everyone can view the greening rate and heat island effect index of their neighbourhood through Google Earth Engine as such, this can raise public awareness of environmental protection. If these data are more transparent, citizens may be more willing to participate in urban planning rather than just passively accepting policies.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 Policy</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Policy</span>"
     ]
   },
   {
@@ -177,6 +177,66 @@
     "text": "6.3 Reflection\nThis week’s study has made me deeply appreciate the advantages of cloud computing in remote sensing data analysis. Compared with traditional local GIS software, GEE greatly improves computational efficiency and is especially suitable for large-scale data processing.\nIn practice, one of the roadblocks I encountered was adapting to the JavaScript syntax, because in the past I mainly used Python for data analysis. I learnt that GEE’s map() function is an important concept for batch processing image data on the server side, avoiding the inefficient computation of traditional for loops. I think this is a great approach.\nIn the future, I hope to do more in-depth research in conjunction with GEE, especially the application of machine learning to remote sensing image classification. (Seems like I say that every week…) I hope my previous knowledge will come in handy)\nFor example, exploring Random Forest (Random Forest) or Support Vector Machines (SVM) for land cover classification, and combining GEE with deep learning frameworks (e.g., TensorFlow) to further improve the accuracy of image analysis. This will not only expand the application scope of GEE, but also provide more accurate and credible data support for environmental monitoring and sustainable urban development.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 Google Earth Engine I</span>"
+    ]
+  },
+  {
+    "objectID": "Classification I.html",
+    "href": "Classification I.html",
+    "title": "7  Classification I",
+    "section": "",
+    "text": "7.1 Summary\nThis week’s study focused on remote sensing image classification, covering both Supervised Classification and Unsupervised Classification. We also learnt how to load and process remote sensing data in GEE, especially how to use Sentinel-2 data for cloud masking and classification.\nClassification algorithms are not unfamiliar to me, and as an undergraduate big data major with some grounding in K-means, random forests, and SVMs, it felt like an old friend meeting🧑‍🤝‍🧑. However, it was the first time to use these methods in the context of remote sensing image classification. I also had some new experiences. For remote sensing image data preprocessing is far more complex than expected, especially for cloud masks. The difference between filtering based on cloud coverage percentage and pixel-by-pixel filtering based on QA60 is obvious. We also found a ‘pitfall🕳️’ that the model performance of the polygon based training and testing sets was basically very poor, and the accuracy was significantly improved after switching to pixel level sampling.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification I</span>"
+    ]
+  },
+  {
+    "objectID": "Classification I.html#application",
+    "href": "Classification I.html#application",
+    "title": "7  Classification I",
+    "section": "7.2 Application",
+    "text": "7.2 Application\nRemote sensing image classification has many practical applications, such as environmental monitoring, urban sprawl analysis, and air pollution research. Taking air pollution studies as an example, we can use LULC data (land use/land cover) to analyse the effects of different surface types on major air pollutants (MAP) and surface temperature (LST).\nPrevious literature has shown that air quality is usually better and temperatures are relatively lower in areas with more urban green space and forest cover. If we combine the data from Sentinel-3 and Sentinel-5P, we might be able to do a regression analysis to see the effect of LULC on pollutants such as PM2.5, SO2 and NO2.\nAlso, forest monitoring is an interesting application, especially for illegal logging detection. I have used Random Forest for classification before, but I didn’t realise that it could be useful in remote sensing image processing. Hansen et al. (2013) used Landsat data to analyse the change of forest cover, and combined with the Random Forest classifier, the accuracy was significantly improved. This got me thinking that if similar methods were used in different regions, they could be used to predict future forest trends.\nThink out loud💡:\nUrban extension studies can also be done with this idea, such as comparing satellite images from multiple points in time to see how urbanisation is changing. Supervised classification methods (e.g. SVM, Random Forest) can be used to improve classification accuracy and also reduce manual misclassification.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification I</span>"
+    ]
+  },
+  {
+    "objectID": "Classification I.html#reflection",
+    "href": "Classification I.html#reflection",
+    "title": "7  Classification I",
+    "section": "7.3 Reflection",
+    "text": "7.3 Reflection\nThis week’s study has given me a new understanding of the models and remote sensing classification that I have learnt before, especially the importance of data preprocessing. In the training process of these models, K-means and SVM, data quality determines everything, for example, if the cloud mask is not handled properly, the classification results will be messy. When I did machine learning projects before, most of them were dealing with numbers. But this practice made me more deeply appreciate that if the data itself is problematic, the model can’t be saved no matter how powerful it is.\nAnother thing that made me think is that although complex machine learning methods (SVM, Random Forest) can improve classification accuracy, in some scenarios, simple threshold classification is rather more intuitive and effective. For example, if the image data itself is already clear, a simple pixel value thresholding method may be more reliable and easier to interpret than machine learning classification.\nIn the future：\nI would like to further investigate how to optimise the hyperparameters of the classification model to see how different combinations of parameters affect the classification effect. In addition, I am interested in multi-source data fusion (e.g. optical, SAR, LiDAR), and perhaps try to combine these different types of data to improve the accuracy and stability of classification.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification I</span>"
+    ]
+  },
+  {
+    "objectID": "Classification II.html",
+    "href": "Classification II.html",
+    "title": "8  Classification II",
+    "section": "",
+    "text": "8.1 Summary\nAdvanced this week!！😄\nWe learned more advanced remote sensing classification methods, mainly Object Oriented Image Analysis (OBIA) and Subpixel Classification. Compared to the pixel-level classification we used before, this time the focus is on how to extract information from more complex remote sensing data, such as analysing the proportion of features at the sub-pixel level by using Spectral Mixture Analysis (SMA) or clustering similar pixels by using Super Pixel Segmentation (SNIC).\nThe practical part is still GEE, this time with Landsat data instead, we first did a wave of routine operations (loading data, cloud mask, image cropping), and then tried Spectral Unmixing (Linear Spectral Unmixing). The core idea of this method is to pick a few endmembers (endmembers) and then calculate the percentage of land coverage for each pixel. After that, I also did a wave of classification using the SNIC superpixel method, and the result was better than the simple pixel-level classification.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Classification II</span>"
+    ]
+  },
+  {
+    "objectID": "Classification II.html#application",
+    "href": "Classification II.html#application",
+    "title": "8  Classification II",
+    "section": "8.2 Application",
+    "text": "8.2 Application\n\nThe methods we learned this week are very effective in Urban Sprawl Monitoring. Like OBIA, you can slice and dice the image into different features, such as high-density housing, commercial areas, green spaces, and so on, without being as prone to error as pixel-level classification. When I used Random Forest before, I felt that sometimes the classification might not be too accurate, but now with the additional spatial information, the identified urban structure is more reliable.\nForest monitoring is also a typical application, especially for illegal logging detection. Traditional pixel-level classification may misclassify mixed pixels (e.g. partially deforested forests), but SMA, a spectral mixing method, can more accurately estimate the proportion of canopy cover, for example, the destruction of the Amazon rainforest can be analysed with Landsat data, providing more accurate information to environmental organisations.\nWater Management can also use subpixel classification. For example, with Sentinel-2 data, we can analyse the different components in a body of water, like suspended sediment, algae and so on, which is still quite effective for pollution source monitoring. Wouldn’t it be more intuitive for a coastal city to use this method to track the spread of pollution than traditional water quality monitoring?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Classification II</span>"
+    ]
+  },
+  {
+    "objectID": "Classification II.html#reflection",
+    "href": "Classification II.html#reflection",
+    "title": "8  Classification II",
+    "section": "8.3 Reflection",
+    "text": "8.3 Reflection\nThe biggest takeaway from this week is that classification is not just about choosing an algorithm, it’s more about using the right method. Pixel-level classification is simple and rough, but sometimes a lot of details will be lost, especially the problem of mixed pixels, OBIA and SMA can analyse the image in more detail, especially SNIC, which is a super-pixel method, a little bit similar to K-means, but it can make the spatial structure more reasonable, and the classification effect is obviously better.\nIn the part of classification accuracy evaluation, the previous modelling only focuses on Overall Accuracy (OA), but actually Producer’s Accuracy and User’s Accuracy are more important. For example, if the mapping accuracy of the ‘green space’ category in the classification is very low, urban planners may make wrong decisions with this data. So, when evaluating a classification model, you should not just look at one metric, but consider all aspects.\nNext (in the future)🪁:\nI would like to try deep learning (e.g. CNN) on remote sensing classification to see if the accuracy can be further improved. At the same time, I also want to figure out the effect of end-element selection on spectral mixture analysis, and try different methods to optimise the classification effect. This week’s study made me realise that remote sensing classification is not just as simple as running a model, but more about finding a solution suitable for practical applications.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Classification II</span>"
     ]
   }
 ]

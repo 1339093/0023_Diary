@@ -1,0 +1,29 @@
+---
+title: "Classification II"
+---
+
+## Summary 
+
+Advanced this week!！😄
+
+We learned more advanced remote sensing classification methods, mainly **Object Oriented Image Analysis (OBIA)** and **Subpixel Classification**. Compared to the pixel-level classification we used before, this time the focus is on how to extract information from more complex remote sensing data, such as analysing the proportion of features at the sub-pixel level by using **Spectral Mixture Analysis (SMA)** or clustering similar pixels by using **Super Pixel Segmentation (SNIC)**.
+
+The practical part is still GEE, this time with Landsat data instead, we first did a wave of routine operations (loading data, cloud mask, image cropping), and then tried **Spectral Unmixing (Linear Spectral Unmixing)**. The core idea of this method is to pick a few endmembers (endmembers) and then calculate the percentage of land coverage for each pixel. After that, I also did a wave of classification using the SNIC superpixel method, and the result was better than the simple pixel-level classification.
+
+## Application
+
+1.  The methods we learned this week are very effective in **Urban Sprawl Monitoring**. Like OBIA, you can slice and dice the image into different features, such as high-density housing, commercial areas, green spaces, and so on, without being as prone to error as pixel-level classification. When I used Random Forest before, I felt that sometimes the classification might not be too accurate, but now with the additional spatial information, the identified urban structure is more reliable.
+
+2.  **Forest monitoring** is also a typical application, especially for illegal logging detection. Traditional pixel-level classification may misclassify mixed pixels (e.g. partially deforested forests), but SMA, a spectral mixing method, can more accurately estimate the proportion of canopy cover, for example, the destruction of the Amazon rainforest can be analysed with Landsat data, providing more accurate information to environmental organisations.
+
+3.  **Water Management** can also use subpixel classification. For example, with Sentinel-2 data, we can analyse the different components in a body of water, like suspended sediment, algae and so on, which is still quite effective for pollution source monitoring. Wouldn't it be more intuitive for a coastal city to use this method to track the spread of pollution than traditional water quality monitoring?
+
+## Reflection 
+
+The *biggest* takeaway from this week is that classification is not just about choosing an algorithm, it's more about using the right method. Pixel-level classification is simple and rough, but sometimes a lot of details will be lost, especially the problem of mixed pixels, OBIA and SMA can analyse the image in more detail, especially SNIC, which is a super-pixel method, a little bit similar to K-means, but it can make the spatial structure more reasonable, and the classification effect is obviously better.
+
+In the part of classification accuracy evaluation, the previous modelling only focuses on Overall Accuracy (OA), but actually **Producer's Accuracy and User's Accuracy** are more important. For example, if the mapping accuracy of the ‘green space’ category in the classification is very low, urban planners may make wrong decisions with this data. So, when evaluating a classification model, you should not just look at one metric, but consider all aspects.
+
+**Next (in the future)🪁:**
+
+I would like to try deep learning (e.g. CNN) on remote sensing classification to see if the accuracy can be further improved. At the same time, I also want to figure out the effect of end-element selection on spectral mixture analysis, and try different methods to optimise the classification effect. This week's study made me realise that remote sensing classification is not just as simple as running a model, but more about finding a solution suitable for practical applications.
