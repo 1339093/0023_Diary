@@ -15,7 +15,7 @@ book:
     - "Google Earth Engine I.qmd"
     - "Classification I.qmd"
     - "Classification II.qmd"
-    -  SAR.qmd
+    - SAR.qmd
 
 bibliography: references.bib
 
