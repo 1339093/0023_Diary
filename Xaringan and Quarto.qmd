@@ -50,6 +50,8 @@ In Slide, I recorded what I learned about Xaringan this week, as well as some of
 
 ::: {style="overflow: hidden;"}
 This is the description of the image, aligned to the right of the picture.
+
+![](coding.jpeg)
 :::
 
 ::: {style="float: left; width: 100%; margin-right: 1em;"}
