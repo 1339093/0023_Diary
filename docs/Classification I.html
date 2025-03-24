@@ -210,6 +210,49 @@ ul.task-list li input[type="checkbox"] {
 <p>Also, forest monitoring is an interesting application, especially for illegal logging detection. I have used Random Forest for classification before, but I didn’t realise that it could be useful in remote sensing image processing. Hansen et al.&nbsp;(2013) used Landsat data to analyse the change of forest cover, and combined with the Random Forest classifier, the accuracy was significantly improved. This got me thinking that if similar methods were used in different regions, they could be used to predict future forest trends.</p>
 <p><strong>Think out loud💡:</strong></p>
 <p>Urban extension studies can also be done with this idea, such as comparing satellite images from multiple points in time to see how urbanisation is changing. Supervised classification methods (e.g.&nbsp;SVM, Random Forest) can be used to improve classification accuracy and also reduce manual misclassification.</p>
+<p>To summarise what I’ve learned about different classification methods so far, here is a quick comparison of the key approaches used in remote sensing image classification:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 31%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>Type</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>K-means</td>
+<td>Unsupervised</td>
+<td>Easy to implement, no labels needed</td>
+<td>Sensitive to initial seeds</td>
+</tr>
+<tr class="even">
+<td>Random Forest</td>
+<td>Supervised</td>
+<td>High accuracy, handles noise</td>
+<td>Needs labelled data</td>
+</tr>
+<tr class="odd">
+<td>SVM</td>
+<td>Supervised</td>
+<td>Effective with clear margins</td>
+<td>Slower with large datasets</td>
+</tr>
+<tr class="even">
+<td>Thresholding</td>
+<td>Rule-based</td>
+<td>Simple, interpretable</td>
+<td>Not adaptable to complex data</td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="reflection" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.3</span> Reflection</h2>

@@ -2,13 +2,13 @@
 title: "Classification I"
 ---
 
-## Summary 
+## Summary
 
 This week's study focused on remote sensing image classification, covering both *Supervised Classification* and *Unsupervised Classification*. We also learnt how to load and process remote sensing data in GEE, especially how to use Sentinel-2 data for cloud masking and classification.
 
 Classification algorithms are not unfamiliar to me, and as an undergraduate big data major with some grounding in K-means, random forests, and SVMs, it felt like an old friend meeting🧑‍🤝‍🧑. However, it was the first time to use these methods in the context of remote sensing image classification. I also had some new experiences. For remote sensing image data preprocessing is far more complex than expected, especially for cloud masks. The difference between filtering based on cloud coverage percentage and pixel-by-pixel filtering based on QA60 is obvious. We also found a ‘pitfall🕳️’ that the model performance of the polygon based training and testing sets was basically very poor, and the accuracy was significantly improved after switching to pixel level sampling.
 
-## Application 
+## Application
 
 Remote sensing image classification has many practical applications, such as environmental monitoring, urban sprawl analysis, and air pollution research. Taking air pollution studies as an example, we can use LULC data (land use/land cover) to analyse the effects of different surface types on major air pollutants (MAP) and surface temperature (LST).
 
@@ -20,7 +20,16 @@ Also, forest monitoring is an interesting application, especially for illegal lo
 
 Urban extension studies can also be done with this idea, such as comparing satellite images from multiple points in time to see how urbanisation is changing. Supervised classification methods (e.g. SVM, Random Forest) can be used to improve classification accuracy and also reduce manual misclassification.
 
-## Reflection 
+To summarise what I’ve learned about different classification methods so far, here is a quick comparison of the key approaches used in remote sensing image classification:
+
+| Method        | Type         | Pros                                | Cons                          |
+|---------------|---------------|-----------------------|-------------------|
+| K-means       | Unsupervised | Easy to implement, no labels needed | Sensitive to initial seeds    |
+| Random Forest | Supervised   | High accuracy, handles noise        | Needs labelled data           |
+| SVM           | Supervised   | Effective with clear margins        | Slower with large datasets    |
+| Thresholding  | Rule-based   | Simple, interpretable               | Not adaptable to complex data |
+
+## Reflection
 
 This week's study has given me a new understanding of the models and remote sensing classification that I have learnt before, especially the importance of data **preprocessing.** In the training process of these models, K-means and SVM, data quality determines everything, for example, if the cloud mask is not handled properly, the classification results will be messy. When I did machine learning projects before, most of them were dealing with numbers. But this practice made me more deeply appreciate that if the data itself is problematic, the model can't be saved no matter how powerful it is.
 
