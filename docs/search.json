@@ -82,41 +82,41 @@
   {
     "objectID": "Corrections.html",
     "href": "Corrections.html",
-    "title": "4  Week 3 Corrections",
+    "title": "4  Corrections",
     "section": "",
     "text": "4.1 Summary\nThe main content of this week is Correction and Enhancement of Remote Sensing Data, focusing on the techniques of Atmospheric Correction, Geometric Correction and Data Fusion. Through practice, I mastered how to perform atmospheric correction on remote sensing images using the Dark Object Subtraction (DOS) method, and learnt how to stitch (Mosaicking) multiple remote sensing images into a seamless whole. There was also exposure to Image Enhancement techniques such as Filtering, Texture Analysis, and Principal Component Analysis (PCA), which can help us extract more useful information from remotely sensed data.\n💡:\nDOS is suitable for simple scenarios, while COST is more suitable for complex atmospheric conditions.\n(Control the degree of processing during image enhancement, e.g. select principal components with more than the first 95% of variance information instead of all principal components. After enhancement, use the original data for comparison to ensure that the data features have not been overly modified.)\nGonzález, R. C., & Woods, R. E. (2018). Digital image processing. also covered in detail in the book Pearson Education.(I haven’t finished it yet…😁)",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 Corrections</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
     ]
   },
   {
     "objectID": "Corrections.html#summary",
     "href": "Corrections.html#summary",
-    "title": "4  Week 3 Corrections",
+    "title": "4  Corrections",
     "section": "",
     "text": "atmospheric correction is a very important step in remote sensing data processing, but different correction methods (e.g., DOS and COST) are suitable for different scenarios.\n\n\n\nimage enhancement techniques (e.g. PCA and texture analysis) can help us extract more information from the data, but do these methods lead to over-processing or distortion of the information? How can we enhance images while maintaining the fidelity of the data?",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 Corrections</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
     ]
   },
   {
     "objectID": "Corrections.html#application",
     "href": "Corrections.html#application",
-    "title": "4  Week 3 Corrections",
+    "title": "4  Corrections",
     "section": "4.2 Application",
     "text": "4.2 Application\nThe content learnt this week has potential for a wide range of applications in environmental monitoring, land use classification and disaster management. For example, atmospheric correction can be used to improve the accuracy of remotely sensed data, especially in cloudy or heavily atmospherically polluted areas. With image enhancement techniques, we can better identify surface features such as vegetation cover, water distribution and urban sprawl.\nIn the literature\nMany studies have used atmospheric correction and image enhancement techniques to improve the quality of remotely sensed data. For example, some studies have used DOS methods to correct Landsat data to improve the accuracy of vegetation indices such as NDVI. However, there are some limitations to these methods, such as the fact that DOS methods may not be able to completely remove atmospheric effects when atmospheric conditions are complex.\n💡:\nCan remote sensing data correction and enhancement techniques be used in areas other than traditional environmental monitoring? For example, in urban planning, corrected remote sensing data are used to assess the urban heat island effect.\nThere have been some applications in the literature: the surface radiation temperature of Shenzhen City was inverted using the Split Window Algorithm (SWA) and the Atmospheric Correction Method (ARC).\nReference：Zhang Xiaomin,Liu Zhiwei,Fang Han,et al. Spatial and temporal distribution of urban heat island effect and land use impacts in Shenzhen based on Landsat 8 TIRS surface temperature data inversion[J]. Climate and Environment Research,2023,28(3):242-250. DOI:10.3878/j.issn.1006-9585.2022.21160.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 Corrections</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
     ]
   },
   {
     "objectID": "Corrections.html#reflection",
     "href": "Corrections.html#reflection",
-    "title": "4  Week 3 Corrections",
+    "title": "4  Corrections",
     "section": "4.3 Reflection",
     "text": "4.3 Reflection\nAfter this week’s study, I feel that the correction and enhancement techniques of remote sensing data are really quite complicated, but also very interesting. Especially the atmospheric correction, although I found it a bit difficult to understand at first, but through the DOS method, I slowly understood its basic principles and was able to get my hands on it.\nCan these techniques be combined with AI in the future? For example, using AI to automatically identify which areas require more complex atmospheric corrections, or using machine learning models to predict which image enhancement methods are best suited to a particular surface feature. This would not only improve efficiency, but also make the processing of remote sensing data smarter.\nIt also occurs to me that remote sensing data correction and enhancement techniques could be combined with VR or AR?\nFor example, the corrected remote sensing data can be imported into a VR environment, so that researchers or decision makers can ‘walk into’ the remote sensing images and visualise the changes on the ground surface. Or using AR technology to overlay remote sensing data onto the real world to help urban planners better understand the impacts of urban sprawl. This combination may make the application of remote sensing technology more intuitive and interesting.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 Corrections</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
     ]
   },
   {
@@ -152,31 +152,31 @@
   {
     "objectID": "Google Earth Engine I.html",
     "href": "Google Earth Engine I.html",
-    "title": "6  Week 6 Google Earth Engine I",
+    "title": "6  Google Earth Engine I",
     "section": "",
     "text": "6.1 Summary\nThe main task this week is to learn how to analyse remote sensing data using Google Earth Engine (GEE).GEE is a powerful cloud platform capable of handling large-scale remote sensing data and providing fast computational power. With GEE, we can access worldwide remote sensing datasets such as Landsat, Sentinel, etc. and perform complex spatial analyses.\nThis week focused on the basic operations of GEE, including data loading, image processing, texture analysis and principal component analysis (PCA). And the GEE results are exported and applied to practical problems.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 Google Earth Engine I</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Google Earth Engine I</span>"
     ]
   },
   {
     "objectID": "Google Earth Engine I.html#application",
     "href": "Google Earth Engine I.html#application",
-    "title": "6  Week 6 Google Earth Engine I",
+    "title": "6  Google Earth Engine I",
     "section": "6.2 Application",
     "text": "6.2 Application\nGEE is widely used in remote sensing data analysis, especially in urban planning and environmental monitoring.\nThrough relevant literature, I found many studies using GEE to analyse the urban heat island effect and to assess the distribution of urban green space by calculating the Normalised Vegetation Index (NDVI).\nIn air pollution monitoring, GEE can be used to analyse air pollution data from Sentinel-5P to monitor the trends of pollutants such as PM2.5 and nitrogen dioxide (NO2). Expressed in policy research, GEE data can be used to analyse the relationship between air pollution and urban population density, providing a scientific basis for urban environmental managers.PCA can also be used to downscale multi-band remote sensing data and extract the main components to simplify data analysis. Through PCA analysis, the bands that contribute most to the urban heat island effect can be identified. In this way, it also contributes to the ‘prioritisation’.\nAnother interesting application for me is flood risk assessment. By combining Landsat imagery, DEMs (Digital Elevation Models) and precipitation data, it is possible to monitor in real time the extent of flood damage. Using the reduceRegion() function, it is possible to calculate the historical frequency of floods in a given area and assess the future risk, which is important for emergency management and disaster warning.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 Google Earth Engine I</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Google Earth Engine I</span>"
     ]
   },
   {
     "objectID": "Google Earth Engine I.html#reflection",
     "href": "Google Earth Engine I.html#reflection",
-    "title": "6  Week 6 Google Earth Engine I",
+    "title": "6  Google Earth Engine I",
     "section": "6.3 Reflection",
     "text": "6.3 Reflection\nThis week’s study has made me deeply appreciate the advantages of cloud computing in remote sensing data analysis. Compared with traditional local GIS software, GEE greatly improves computational efficiency and is especially suitable for large-scale data processing.\nIn practice, one of the roadblocks I encountered was adapting to the JavaScript syntax, because in the past I mainly used Python for data analysis. I learnt that GEE’s map() function is an important concept for batch processing image data on the server side, avoiding the inefficient computation of traditional for loops. I think this is a great approach.\nIn the future, I hope to do more in-depth research in conjunction with GEE, especially the application of machine learning to remote sensing image classification. (Seems like I say that every week…) I hope my previous knowledge will come in handy)\nFor example, exploring Random Forest (Random Forest) or Support Vector Machines (SVM) for land cover classification, and combining GEE with deep learning frameworks (e.g., TensorFlow) to further improve the accuracy of image analysis. This will not only expand the application scope of GEE, but also provide more accurate and credible data support for environmental monitoring and sustainable urban development.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 Google Earth Engine I</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Google Earth Engine I</span>"
     ]
   },
   {
@@ -237,6 +237,36 @@
     "text": "8.3 Reflection\nThe biggest takeaway from this week is that classification is not just about choosing an algorithm, it’s more about using the right method. Pixel-level classification is simple and rough, but sometimes a lot of details will be lost, especially the problem of mixed pixels, OBIA and SMA can analyse the image in more detail, especially SNIC, which is a super-pixel method, a little bit similar to K-means, but it can make the spatial structure more reasonable, and the classification effect is obviously better.\nIn the part of classification accuracy evaluation, the previous modelling only focuses on Overall Accuracy (OA), but actually Producer’s Accuracy and User’s Accuracy are more important. For example, if the mapping accuracy of the ‘green space’ category in the classification is very low, urban planners may make wrong decisions with this data. So, when evaluating a classification model, you should not just look at one metric, but consider all aspects.\nNext (in the future)🪁:\nI would like to try deep learning (e.g. CNN) on remote sensing classification to see if the accuracy can be further improved. At the same time, I also want to figure out the effect of end-element selection on spectral mixture analysis, and try different methods to optimise the classification effect. This week’s study made me realise that remote sensing classification is not just as simple as running a model, but more about finding a solution suitable for practical applications.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Classification II</span>"
+    ]
+  },
+  {
+    "objectID": "Temperature and SAR.html",
+    "href": "Temperature and SAR.html",
+    "title": "9  Temperature and SAR",
+    "section": "",
+    "text": "9.1 Summary\nThis week’s topic revolves around urban temperatures and their analysis by remote sensing, focusing on the use of Landsat and MODIS data to measure the urban thermal environment and to combine statistical methods and machine learning models for analysis. In addition to basic temperature extraction and time-series analyses, the course introduces the calculation of the Heat Index and discusses the impact of historical Redlining policies on urban temperatures.\nIn terms of data processing, this week attempted to use Landsat 8 and MODIS (Aqua & Terra) data to extract the Land Surface Temperature (LST) of Beijing, combining the high resolution of Landsat with the high temporal resolution of MODIS to obtain a more comprehensive temperature monitoring result. At the same time, the data is pre-processed by Google Earth Engine (GEE) to ensure accuracy and usability.\nThe most interesting part of the week for me was Time series analysis and spatial statistics: - Time series analysis of MODIS: to observe the trend of summer temperature. - Calculation of average temperatures for different administrative regions based on Landsat and exporting the data for further analyses (e.g. calculating temperature percentiles in R). - Heat index calculation: Use Landsat data to construct a temperature scale to classify the city’s ‘heat risk class’ by percentile.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Temperature and SAR</span>"
+    ]
+  },
+  {
+    "objectID": "Temperature and SAR.html#application",
+    "href": "Temperature and SAR.html#application",
+    "title": "9  Temperature and SAR",
+    "section": "9.2 Application",
+    "text": "9.2 Application\nThis week’s knowledge can be widely applied to Urban Heat Island (UHI) studies, environmental planning, and climate adaptation strategies.\n\nUrban Heat Island Effect Monitoring\nThis week, we learnt how to use MODIS long time series data to analyse the trend of urban heat island effect, and combined with Landsat fine-grained data to study microclimate impacts. By comparing data from different years, it is possible to identify areas of significant temperature increase and further explore the relationship with land use change, such as which neighbourhoods are more susceptible to heat due to a lack of greenery.\nUrban planning and public health\nHigh temperatures not only affect comfort, but are also linked to socio-economic factors and the health of the population. We will examine the long-term impact of ‘Redlining’ policies in the context of heat exposure in poor neighbourhoods, and use hospital emergency data to assess the public health risks of heat, in order to develop more appropriate cooling strategies for cities.\nData Processing and Machine Learning\nOptimisation This week’s heat index calculation is similar to a classification problem and can be combined with K-means clustering, decision trees (CART) or deep learning (CNN) to improve the accuracy of the analysis. In addition, temperature trend analyses via Mann-Kendall trend tests can provide data to support future urban planning and policy making.\n\n💡:\nLandsat has high spatial resolution but low temporal resolution, suitable for local fine analysis; MODIS has high temporal resolution but low spatial resolution, suitable for large-scale analysis.\nThe calculation of the heat index can be adjusted, e.g. different regions may need different temperature thresholds to avoid ‘one size fits all’ grading.\nIn the future, Night temperature data (MODIS LST Night) can be added to explore the influence of day-night temperature difference on the thermal environment.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Temperature and SAR</span>"
+    ]
+  },
+  {
+    "objectID": "Temperature and SAR.html#reflection",
+    "href": "Temperature and SAR.html#reflection",
+    "title": "9  Temperature and SAR",
+    "section": "9.3 Reflection",
+    "text": "9.3 Reflection\nThis week has made me more aware of the importance of remotely sensed data in urban environmental monitoring, especially in addressing climate change and urban heat island issues, which can provide more comprehensive and detailed analyses than traditional weather stations. In addition, the high temporal resolution of MODIS makes me more interested in time series analysis, and in the future I would like to try to apply machine learning to temperature prediction, such as LSTM or ARIMA to predict the future high temperature trend of the city.\nHowever, the whole data processing process is still quite complicated, especially when implementing temperature calculation, heat index grading and other operations in Google Earth Engine (GEE), the code logic needs to be adjusted repeatedly. If we want to do a larger-scale analysis of the urban thermal environment in the future, we may need to combine Python with automated batch processing to improve the computational efficiency.\nThis week’s study has given me a deeper understanding of Geospatial Data Processing and Time Series Analysis, and a clearer idea of the direction in which remote sensing technology may be applied in the future!",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Temperature and SAR</span>"
     ]
   }
 ]

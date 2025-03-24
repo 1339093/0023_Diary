@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Diary - 4&nbsp; Corrections</title>
+<title>Diary - 9&nbsp; Temperature and SAR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Policy.html" rel="next">
-<link href="./Xaringan and Quarto.html" rel="prev">
+<link href="./Classification II.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Corrections.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Corrections</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Temperature and SAR.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Temperature and SAR</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -126,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Corrections.html" class="sidebar-item-text sidebar-link active">
+  <a href="./Corrections.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Corrections</span></span></a>
   </div>
 </li>
@@ -156,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Temperature and SAR.html" class="sidebar-item-text sidebar-link">
+  <a href="./Temperature and SAR.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Temperature and SAR</span></span></a>
   </div>
 </li>
@@ -170,9 +169,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">4.1</span> Summary</a></li>
-  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">4.2</span> Application</a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">4.3</span> Reflection</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">9.1</span> Summary</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">9.2</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">9.3</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -181,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Corrections</span></h1>
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Temperature and SAR</span></h1>
 </div>
 
 
@@ -198,36 +197,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="summary" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">4.1</span> Summary</h2>
-<p>The main content of this week is <strong>Correction and Enhancement of Remote Sensing Data</strong>, focusing on the techniques of <strong>Atmospheric Correction</strong>, <strong>Geometric Correction</strong> and <strong>Data Fusion</strong>. Through practice, I mastered how to perform atmospheric correction on remote sensing images using the <strong>Dark Object Subtraction (DOS)</strong> method, and learnt how to stitch (Mosaicking) multiple remote sensing images into a seamless whole. There was also exposure to <strong>Image Enhancement</strong> techniques such as <strong>Filtering</strong>, <strong>Texture Analysis</strong>, and <strong>Principal Component Analysis (PCA)</strong>, which can help us extract more useful information from remotely sensed data.</p>
-<p><strong>💡:</strong></p>
-<ol type="1">
-<li>atmospheric correction is a very important step in remote sensing data processing, but different correction methods (e.g., DOS and COST) are suitable for different scenarios.</li>
-</ol>
-<p>DOS is suitable for simple scenarios, while COST is more suitable for complex atmospheric conditions.</p>
-<ol start="2" type="1">
-<li>image enhancement techniques (e.g.&nbsp;PCA and texture analysis) can help us extract more information from the data, but do these methods lead to over-processing or distortion of the information? How can we enhance images while maintaining the fidelity of the data?</li>
-</ol>
-<p>(Control the degree of processing during image enhancement, e.g.&nbsp;select principal components with more than the first 95% of variance information instead of all principal components. After enhancement, use the original data for comparison to ensure that the data features have not been overly modified.)</p>
-<p>González, R. C., &amp; Woods, R. E. (2018). Digital image processing. also covered in detail in the book Pearson Education.(I haven’t finished it yet…😁)</p>
+<section id="summary" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">9.1</span> Summary</h2>
+<p>This week’s topic revolves around urban temperatures and their analysis by remote sensing, focusing on the use of <strong>Landsat</strong> and <strong>MODIS</strong> data to measure the urban thermal environment and to combine statistical methods and machine learning models for analysis. In addition to basic temperature extraction and time-series analyses, the course introduces the calculation of the <strong>Heat Index</strong> and discusses the impact of historical Redlining policies on urban temperatures.</p>
+<p>In terms of data processing, this week attempted to use Landsat 8 and MODIS (Aqua &amp; Terra) data to extract the Land Surface Temperature (LST) of Beijing, combining the high resolution of Landsat with the high temporal resolution of MODIS to obtain a more comprehensive temperature monitoring result. At the same time, the data is pre-processed by Google Earth Engine (GEE) to ensure accuracy and usability.</p>
+<p>The most interesting part of the week for me was <strong>Time series analysis and spatial statistics</strong>: - <strong>Time series analysis of MODIS</strong>: to observe the trend of summer temperature. - <strong>Calculation of average temperatures</strong> for different administrative regions based on Landsat and exporting the data for further analyses (e.g.&nbsp;calculating temperature percentiles in R). - <strong>Heat index calculation</strong>: Use Landsat data to construct a temperature scale to classify the city’s ‘heat risk class’ by percentile.</p>
 </section>
-<section id="application" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="application"><span class="header-section-number">4.2</span> Application</h2>
-<p>The content learnt this week has potential for a wide range of applications in environmental monitoring, land use classification and disaster management. For example, atmospheric correction can be used to improve the accuracy of remotely sensed data, especially in cloudy or heavily atmospherically polluted areas. With image enhancement techniques, we can better identify surface features such as vegetation cover, water distribution and urban sprawl.</p>
-<p><strong>In the literature</strong></p>
-<p>Many studies have used atmospheric correction and image enhancement techniques to improve the quality of remotely sensed data. For example, some studies have used DOS methods to correct Landsat data to improve the accuracy of vegetation indices such as NDVI. However, there are some limitations to these methods, such as the fact that DOS methods may not be able to completely remove atmospheric effects when atmospheric conditions are complex.</p>
-<p><strong>💡:</strong></p>
-<p>Can remote sensing data correction and enhancement techniques be used in areas other than traditional environmental monitoring? For example, in urban planning, corrected remote sensing data are used to assess the urban heat island effect.</p>
-<p>There have been some applications in the literature: the surface radiation temperature of Shenzhen City was inverted using the Split Window Algorithm (SWA) and the Atmospheric Correction Method (ARC).</p>
-<p><em>Reference：</em>Zhang Xiaomin,Liu Zhiwei,Fang Han,et al.&nbsp;Spatial and temporal distribution of urban heat island effect and land use impacts in Shenzhen based on Landsat 8 TIRS surface temperature data inversion[J]. Climate and Environment Research,2023,28(3):242-250. DOI:10.3878/j.issn.1006-9585.2022.21160.</p>
+<section id="application" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="application"><span class="header-section-number">9.2</span> Application</h2>
+<p>This week’s knowledge can be widely applied to <strong>Urban Heat Island (UHI) studies, environmental planning, and climate adaptation strategies</strong>.</p>
+<ul>
+<li><p><em>Urban Heat Island Effect Monitoring</em></p>
+<p>This week, we learnt how to use MODIS long time series data to analyse the trend of urban heat island effect, and combined with Landsat fine-grained data to study microclimate impacts. By comparing data from different years, it is possible to identify areas of significant temperature increase and further explore the relationship with land use change, such as which neighbourhoods are more susceptible to heat due to a lack of greenery.</p></li>
+<li><p><em>Urban planning and public health</em></p>
+<p>High temperatures not only affect comfort, but are also linked to socio-economic factors and the health of the population. We will examine the long-term impact of ‘Redlining’ policies in the context of heat exposure in poor neighbourhoods, and use hospital emergency data to assess the public health risks of heat, in order to develop more appropriate cooling strategies for cities.</p></li>
+<li><p><em>Data Processing and Machine Learning</em></p>
+<p>Optimisation This week’s heat index calculation is similar to a classification problem and can be combined with K-means clustering, decision trees (CART) or deep learning (CNN) to improve the accuracy of the analysis. In addition, temperature trend analyses via Mann-Kendall trend tests can provide data to support future urban planning and policy making.</p></li>
+</ul>
+<p><strong>💡:</strong><br>
+Landsat has high spatial resolution but low temporal resolution, suitable for local fine analysis; MODIS has high temporal resolution but low spatial resolution, suitable for large-scale analysis.<br>
+The calculation of the heat index can be adjusted, e.g.&nbsp;different regions may need different temperature thresholds to avoid ‘one size fits all’ grading.<br>
+In the future, <strong>Night temperature data (MODIS LST Night)</strong> can be added to explore the influence of day-night temperature difference on the thermal environment.</p>
 </section>
-<section id="reflection" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">4.3</span> Reflection</h2>
-<p>After this week’s study, I feel that the correction and enhancement techniques of remote sensing data are really quite complicated, but also very interesting. Especially the atmospheric correction, although I found it a bit difficult to understand at first, but through the DOS method, I slowly understood its basic principles and was able to get my hands on it.</p>
-<p>Can these techniques be combined with <strong>AI</strong> in the future? For example, using AI to automatically identify which areas require more complex atmospheric corrections, or using machine learning models to predict which image enhancement methods are best suited to a particular surface feature. This would not only improve efficiency, but also make the processing of remote sensing data smarter.</p>
-<p>It also occurs to me that remote sensing data correction and enhancement techniques could be combined with <strong>VR or AR</strong>?</p>
-<p>For example, the corrected remote sensing data can be imported into a VR environment, so that researchers or decision makers can ‘walk into’ the remote sensing images and visualise the changes on the ground surface. Or using AR technology to overlay remote sensing data onto the real world to help urban planners better understand the impacts of urban sprawl. This combination may make the application of remote sensing technology more intuitive and interesting.</p>
+<section id="reflection" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">9.3</span> Reflection</h2>
+<p>This week has made me more aware of the importance of remotely sensed data in urban environmental monitoring, especially in addressing climate change and urban heat island issues, which can provide more comprehensive and detailed analyses than traditional weather stations. In addition, the high temporal resolution of MODIS makes me more interested in time series analysis, and in the future I would like to try to apply machine learning to temperature prediction, such as <strong>LSTM or ARIMA</strong> to predict the future high temperature trend of the city.</p>
+<p>However, the whole data processing process is still quite complicated, especially when implementing temperature calculation, heat index grading and other operations in <strong>Google Earth Engine (GEE)</strong>, the code logic needs to be adjusted repeatedly. If we want to do a larger-scale analysis of the urban thermal environment in the future, we may need to combine Python with automated batch processing to improve the computational efficiency.</p>
+<p>This week’s study has given me a deeper understanding of <strong>Geospatial Data Processing and Time Series Analysis</strong>, and a clearer idea of the direction in which remote sensing technology may be applied in the future!</p>
 
 
 </section>
@@ -644,14 +640,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Xaringan and Quarto.html" class="pagination-link" aria-label="Protfolio">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Protfolio</span></span>
+      <a href="./Classification II.html" class="pagination-link" aria-label="Classification II">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Classification II</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Policy.html" class="pagination-link" aria-label="Policy">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Policy</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
