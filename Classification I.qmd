@@ -23,7 +23,7 @@ Urban extension studies can also be done with this idea, such as comparing satel
 To summarise what I’ve learned about different classification methods so far, here is a quick comparison of the key approaches used in remote sensing image classification:
 
 | Method        | Type         | Pros                                | Cons                          |
-|---------------|---------------|-----------------------|-------------------|
+|---------------|--------------|-------------------------------------|-------------------------------|
 | K-means       | Unsupervised | Easy to implement, no labels needed | Sensitive to initial seeds    |
 | Random Forest | Supervised   | High accuracy, handles noise        | Needs labelled data           |
 | SVM           | Supervised   | Effective with clear margins        | Slower with large datasets    |

@@ -1,7 +1,7 @@
 ---
 title: "Welcome"
 author: "Ruonan Zhu"
-date: "March 18,2025"
+date: "March 28,2025"
 ---
 
 This is a study note about **CASA0023** Remotely Sensing Cities and Environments
@@ -12,6 +12,10 @@ My undergraduate degree is in Data Science and Big Data Technology. Have some ba
 
 The reason why I chose this course, besides the interest aspect. The main reason is because I think remote sensing data is very important for either urban space or other spaces, and a lot of modelling requires remote sensing data. Therefore, understanding-learning-mastering remote sensing data is very important for the future.
 
-I believe this [book]{.text-green} can clearly show my learning results. It may not be **perfect**, but it also represents my efforts.
+I believe this book can clearly show my learning results. It may not be perfect even have some mistakes, but it also represents my efforts.
 
 **My goal** is to present my own notes while being as interesting as possible and, of course, easy to understand. This is not only for better [review]{.text-red}, but also for people who have no contact with the field at all to understand and become interested.
+
+So, Let's start to my diary! Thanks for reading and wish you enjoy\~
+
+If you have any questions, please contact me.

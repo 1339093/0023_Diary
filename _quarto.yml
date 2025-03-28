@@ -4,8 +4,8 @@ project:
 
 book:
   title: "Diary"
-  author: "Norah Jones"
-  date: "3/12/2025"
+  author: "Ruonan Zhu"
+  date: "1/3/2025"
   chapters:
     - index.qmd
     - Introduction.qmd

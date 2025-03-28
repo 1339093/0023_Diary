@@ -4,11 +4,20 @@ title: "Temperature and SAR"
 
 ## Summary
 
-This week's topic revolves around urban temperatures and their analysis by remote sensing, focusing on the use of **Landsat** and **MODIS** data to measure the urban thermal environment and to combine statistical methods and machine learning models for analysis. In addition to basic temperature extraction and time-series analyses, the course introduces the calculation of the **Heat Index** and discusses the impact of historical Redlining policies on urban temperatures.
+This week's topic focused on analysing urban temperatures through remote sensing, using a combination of Landsat and MODIS data. The goal was to explore how surface temperature patterns can be extracted, monitored over time, and interpreted through statistical and machine learning methods. We also learned how to calculate the Heat Index and considered the role of historical redlining policies in shaping temperature disparities across urban areas.
 
-In terms of data processing, this week attempted to use Landsat 8 and MODIS (Aqua & Terra) data to extract the Land Surface Temperature (LST) of Beijing, combining the high resolution of Landsat with the high temporal resolution of MODIS to obtain a more comprehensive temperature monitoring result. At the same time, the data is pre-processed by Google Earth Engine (GEE) to ensure accuracy and usability.
+In practice, we used Landsat 8 and MODIS (Aqua & Terra) data to extract the Land Surface Temperature (LST) of Beijing. Landsat provided high spatial detail, while MODIS offered frequent temporal coverage. Processing was conducted in Google Earth Engine (GEE), which streamlined tasks such as data selection, cloud masking, and regional averaging.
 
-The most interesting part of the week for me was **Time series analysis and spatial statistics**: - **Time series analysis of MODIS**: to observe the trend of summer temperature. - **Calculation of average temperatures** for different administrative regions based on Landsat and exporting the data for further analyses (e.g. calculating temperature percentiles in R). - **Heat index calculation**: Use Landsat data to construct a temperature scale to classify the city's ‘heat risk class’ by percentile.
+To better understand how these two datasets complement each other, I created the comparison below:
+
+| Feature             | Landsat 8                          | MODIS (Aqua & Terra)                     |
+|---------------------|------------------------------------|------------------------------------------|
+| Spatial Resolution  | 30m (thermal: resampled from 100m) | 1km (LST product), 250–500m (optical)    |
+| Temporal Resolution | 16 days                            | 2 observations per day                   |
+| Strength            | High spatial detail                | High temporal coverage                   |
+| Use Case            | Local-scale thermal mapping        | Long-term UHI and climate trend analysis |
+
+What I enjoyed most this week was working with time-series data and combining it with spatial analysis. Using MODIS to look at summer temperature trends over time, and Landsat to calculate average LST for different districts. After exporting the data, I analysed it in R, looking at things like percentiles and classifying urban heat risk based on that. It gave me a much clearer picture of how urban heat isn't just a physical issue, but one that's deeply connected to planning and equity.
 
 ## Application
 

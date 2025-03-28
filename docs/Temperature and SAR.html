@@ -199,9 +199,46 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="9.1">
 <h2 data-number="9.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">9.1</span> Summary</h2>
-<p>This week’s topic revolves around urban temperatures and their analysis by remote sensing, focusing on the use of <strong>Landsat</strong> and <strong>MODIS</strong> data to measure the urban thermal environment and to combine statistical methods and machine learning models for analysis. In addition to basic temperature extraction and time-series analyses, the course introduces the calculation of the <strong>Heat Index</strong> and discusses the impact of historical Redlining policies on urban temperatures.</p>
-<p>In terms of data processing, this week attempted to use Landsat 8 and MODIS (Aqua &amp; Terra) data to extract the Land Surface Temperature (LST) of Beijing, combining the high resolution of Landsat with the high temporal resolution of MODIS to obtain a more comprehensive temperature monitoring result. At the same time, the data is pre-processed by Google Earth Engine (GEE) to ensure accuracy and usability.</p>
-<p>The most interesting part of the week for me was <strong>Time series analysis and spatial statistics</strong>: - <strong>Time series analysis of MODIS</strong>: to observe the trend of summer temperature. - <strong>Calculation of average temperatures</strong> for different administrative regions based on Landsat and exporting the data for further analyses (e.g.&nbsp;calculating temperature percentiles in R). - <strong>Heat index calculation</strong>: Use Landsat data to construct a temperature scale to classify the city’s ‘heat risk class’ by percentile.</p>
+<p>This week’s topic focused on analysing urban temperatures through remote sensing, using a combination of Landsat and MODIS data. The goal was to explore how surface temperature patterns can be extracted, monitored over time, and interpreted through statistical and machine learning methods. We also learned how to calculate the Heat Index and considered the role of historical redlining policies in shaping temperature disparities across urban areas.</p>
+<p>In practice, we used Landsat 8 and MODIS (Aqua &amp; Terra) data to extract the Land Surface Temperature (LST) of Beijing. Landsat provided high spatial detail, while MODIS offered frequent temporal coverage. Processing was conducted in Google Earth Engine (GEE), which streamlined tasks such as data selection, cloud masking, and regional averaging.</p>
+<p>To better understand how these two datasets complement each other, I created the comparison below:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 36%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>Landsat 8</th>
+<th>MODIS (Aqua &amp; Terra)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Spatial Resolution</td>
+<td>30m (thermal: resampled from 100m)</td>
+<td>1km (LST product), 250–500m (optical)</td>
+</tr>
+<tr class="even">
+<td>Temporal Resolution</td>
+<td>16 days</td>
+<td>2 observations per day</td>
+</tr>
+<tr class="odd">
+<td>Strength</td>
+<td>High spatial detail</td>
+<td>High temporal coverage</td>
+</tr>
+<tr class="even">
+<td>Use Case</td>
+<td>Local-scale thermal mapping</td>
+<td>Long-term UHI and climate trend analysis</td>
+</tr>
+</tbody>
+</table>
+<p>What I enjoyed most this week was working with time-series data and combining it with spatial analysis. Using MODIS to look at summer temperature trends over time, and Landsat to calculate average LST for different districts. After exporting the data, I analysed it in R, looking at things like percentiles and classifying urban heat risk based on that. It gave me a much clearer picture of how urban heat isn’t just a physical issue, but one that’s deeply connected to planning and equity.</p>
 </section>
 <section id="application" class="level2" data-number="9.2">
 <h2 data-number="9.2" class="anchored" data-anchor-id="application"><span class="header-section-number">9.2</span> Application</h2>
